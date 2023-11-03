@@ -1,6 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom'
+import blog  from "./blog/blog"
+import features  from "./feature/feature"
+import footer  from "./footer/footer"
+import header  from "./header/header"
+import possibility  from "./possibility/possibility"
+import whatGPT3  from "./whatGPT3/whatGPT3"
 
-import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export {
+    blog,
+    features,
+    footer,
+    header,
+    possibility,
+    whatGPT3,
+}
